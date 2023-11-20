@@ -1,8 +1,8 @@
-# WEB102 Prework - *Sea Monster Crowdfunding*
+# WEB102 Prework - *Game Harbor*
 
 Submitted by: **Lakshmi Kolluru**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Game Harbor** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **4** hours spent in total
 
