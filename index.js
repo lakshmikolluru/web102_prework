@@ -155,9 +155,9 @@ let listOfUnfundedGames = GAMES_JSON.filter((game) => {
 // create a string that explains the number of unfunded games using the ternary operator
 let display = `<p>A total of ${totalRaisedAmt.toLocaleString("en-US")} has been raised for ${
     listOfFundedGames.length
-} games. Currently, ${
-    listOfUnfundedGames.length
-} game remains unfunded. We need your help to fund these amazing games!</p>`;
+} games. Currently, ${listOfUnfundedGames.length} ${
+    listOfUnfundedGames.length == 1 ? "game" : "games"
+} remains unfunded. We need your help to fund these amazing games!</p>`;
 
 // create a new DOM element containing the template string and append it to the description container
 let description = document.createElement("div");
